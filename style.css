@@ -1,0 +1,194 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.header{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(./loopstudios-landing-page-main/images/desktop/image-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    list-style-type: none;
+    padding-right: 4%;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0rem .3rem;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Alata', sans-serif;
+    transition: color .5s;
+}
+nav ul li:hover a{
+    color: yellow;
+}
+
+.logo{
+    width: 15%;
+    padding: 2% 5%;
+}
+.hamsburger{
+    display: none;
+    width: 1.3rem;
+    margin-right: .5rem;
+}
+.header-mainContent{
+    margin: 4% 5%;
+    border: 1px solid #ffff;
+    display: inline-block;
+    width: 40%;
+
+}
+.header-mainContent h1{
+    font-size: 60px;
+    color: #ffff;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 2%;
+}
+.introduction{
+    padding: 4.5rem 9% 0% 9%;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 4.5rem;
+}
+.introductionImg{
+    object-fit: contain;
+    /* margin: ; */
+    width: 60%;
+}
+.introductionText{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    background: #ffff;
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    /* margin-bottom: 3rem; */
+}
+.introductionText h1{
+    font-size: 60px;
+    color: #000;
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 3% 4% 0% 4%;
+}
+.introductionText p{
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Alata', sans-serif;
+    margin: 3% 22% 0% 4%;
+}
+.imgGallery{
+    margin: 2% 9%;
+}
+.imgGalleryText{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.imgGalleryText h3{
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000;
+    font-weight: 400;
+}
+.imgGalleryText button{
+    color: #696969;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Alata', sans-serif;
+    background-color: #fff;
+    padding: 3px 25px;
+    border: 1px solid black;
+    transition: .5s;  
+}
+.imgGalleryText button:hover{
+    background-color: #696969 ;
+    color: #ffff;
+    border-color: #696969 ;
+}
+.Gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.GalleryImgBox{
+    flex-basis: 20%;
+    position: relative;
+    background-image: linear-gradient( rgba(0,0,0,0), rgba(0,0,0,.8));
+    margin-bottom: 2%;
+}
+.GalleryImgBox img{
+    mix-blend-mode: multiply;
+    z-index: -4;
+}
+.Gallery p{
+    font-size: 30px;
+    color: #ebebeb;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    bottom: 9%;
+    left: 9%;
+}
+.footer{
+    box-sizing: border-box;
+    padding: 2rem 9%;
+    background: #000;
+}
+.footerLogo{
+    width: 14%;
+}
+.footerAbove{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0rem .3rem;
+    
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #9e9e9e;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Alata', sans-serif;
+}
+.footerBelow{
+    display: flex;
+    justify-content: space-between;
+}
+.footerBelow p{
+    color: #9e9e9e;
+}
+.social-Icons a{
+    /* display: inline-block; */
+    margin: 0rem .3rem;
+}
